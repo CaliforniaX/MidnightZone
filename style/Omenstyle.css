@@ -1,0 +1,32 @@
+@import url("./fontColors.css");
+
+* {
+    background-color: var(--backgroundColor);
+    font-family: var(--fontFamily);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    color: var(--color);
+}
+
+.container {
+    padding: auto;
+    margin: auto;
+}
+
+header, section {
+    margin: 1em 1em;
+}
+
+.about .features .download {
+    font-family: var(--fontFamily);
+    font-size: 18px;
+}
+
+a {
+    color: var(--aColor);
+}
